@@ -1,6 +1,6 @@
 # Scientific-Computing-with-Python-Projects
 
-#Arithmetic arranger
+# Arithmetic arranger
 
 Certificación en Scientific Computing with Python Projects
 
