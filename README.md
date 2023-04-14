@@ -4,13 +4,11 @@
 
 Certificación en Scientific Computing with Python Projects
 
-Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes
+Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes: 
 
-   235
-  
-\+  52
-
-\-----
+         235
+      +  52
+      ------
 
 
 Create a function that receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to True, the answers should be displayed.
@@ -21,11 +19,9 @@ Function Call:
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 Output:
 
-   32                 3801           45            123
-   
-\+ 698          \-  2    \+43    \+ 49
-
-\-----    \------    \----    \-----
+         32    3801      45     123
+      + 698    -  2     +43    + 49
+      -----   ------   ----    -----
 
 # Rules
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
